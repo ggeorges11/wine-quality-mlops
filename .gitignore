@@ -1,0 +1,36 @@
+# Virtual environment — recreate from requirements.txt, never commit
+.venv/
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter checkpoint files
+.ipynb_checkpoints/
+
+# Derived data and model artifacts (regenerable; models ship to S3)
+data/processed/*
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+
+# Secrets and credentials — NEVER commit
+.env
+*.pem
+*.key
+credentials
+aws_credentials*
+
+# Lambda build artifacts
+deployment/build/
+deployment/*.zip
+
+# macOS clutter
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
