@@ -101,7 +101,7 @@ documented here on completion of Phase 1.G.
 **Phase 1 — build and deploy a working model**
 
 - [x] 1.A Project setup and tooling
-- [ ] 1.B Data acquisition and exploration
+- [x] 1.B Data acquisition and exploration
 - [ ] 1.C Data preparation
 - [ ] 1.D Model building
 - [ ] 1.E Local API wrapping (FastAPI)
