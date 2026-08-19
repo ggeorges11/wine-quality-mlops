@@ -34,3 +34,4 @@ deployment/*.zip
 # Editors
 .vscode/
 .idea/
+.Rhistory
