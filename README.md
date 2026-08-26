@@ -5,7 +5,7 @@ physicochemical properties. Built as an applied learning project covering the
 full lifecycle: data preparation, model selection, API design, cloud
 deployment, and automated data ingestion.
 
-**Status:** Phase 1 in progress — project setup complete.
+**Status:** Phase 1 in progress — data preparation complete (1.A–1.C); model building next.
 
 ---
 
@@ -52,7 +52,7 @@ deliberately and documented, including the choices to keep things simple.
 | Path | Contents |
 |---|---|
 | `data/raw/` | Original UCI dataset, never modified |
-| `data/processed/` | Cleaned train/validation/holdout splits (generated, gitignored) |
+| `data/processed/` | Cleaned train/validation/holdout splits and the synthetic production sample (generated, gitignored) |
 | `notebooks/` | Exploratory analysis and model development |
 | `src/` | Reusable modules — data prep, training, inference |
 | `models/` | Trained model artifacts (gitignored; deployed via S3) |
@@ -102,7 +102,7 @@ documented here on completion of Phase 1.G.
 
 - [x] 1.A Project setup and tooling
 - [x] 1.B Data acquisition and exploration
-- [ ] 1.C Data preparation
+- [x] 1.C Data preparation
 - [ ] 1.D Model building
 - [ ] 1.E Local API wrapping (FastAPI)
 - [ ] 1.F AWS environment setup (IAM, S3, CLI)
